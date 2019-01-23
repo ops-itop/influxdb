@@ -60,6 +60,7 @@ class SigninForm extends PureComponent<Props, State> {
             <Grid.Column widthXS={Columns.Twelve}>
               <Form.Element label="Username">
                 <Input
+                  name="username"
                   value={username}
                   onChange={this.handleUsername}
                   size={ComponentSize.Medium}
@@ -70,6 +71,7 @@ class SigninForm extends PureComponent<Props, State> {
             <Grid.Column widthXS={Columns.Twelve}>
               <Form.Element label="Password">
                 <Input
+                  name="password"
                   value={password}
                   onChange={this.handlePassword}
                   size={ComponentSize.Medium}
