@@ -149,6 +149,7 @@ const mstp = (state: AppState) => {
   const {draftQueries, timeRange, isViewingRawData} = getActiveTimeMachine(
     state
   )
+
   const activeQuery = getActiveQuery(state)
 
   return {timeRange, activeQuery, draftQueries, isViewingRawData}
