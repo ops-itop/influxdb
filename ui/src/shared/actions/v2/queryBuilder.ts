@@ -1,5 +1,5 @@
 // APIs
-import {queryBuilderFetcher} from 'src/shared/apis/v2/queryBuilder'
+import {queryBuilderFetcher} from 'src/shared/apis/v2/QueryBuilderFetcher'
 
 // Utils
 import {

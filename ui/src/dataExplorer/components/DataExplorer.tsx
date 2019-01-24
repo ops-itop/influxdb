@@ -11,7 +11,7 @@ import {setActiveTimeMachine} from 'src/shared/actions/v2/timeMachines'
 // Utils
 import {DE_TIME_MACHINE_ID} from 'src/shared/constants/timeMachine'
 import {HoverTimeProvider} from 'src/dashboards/utils/hoverTime'
-import {queryBuilderFetcher} from 'src/shared/apis/v2/queryBuilder'
+import {queryBuilderFetcher} from 'src/shared/apis/v2/QueryBuilderFetcher'
 
 // Styles
 import './DataExplorer.scss'
